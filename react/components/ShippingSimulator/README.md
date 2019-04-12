@@ -26,15 +26,17 @@ You can use it in your code like a React component with the jsx tag: `<ShippingS
 <ShippingSimulator
   skuId="3"
   seller="1"
+  country="USA"
 />
 ```
 
 ### Configuration
 
-| Prop name          | Type      | Description                   | Default value |
-| ------------------ | --------- | ----------------------------- | ------------- |
-| `skuId`            | `String!` | Id of the current product SKU | - |
-| `seller`           | `String!` | Id of the product seller      | - |
+| Prop name          | Type        | Description                                  | Default value |
+| ------------------ | ----------- | -------------------------------------------- | ------------- |
+| `skuId`            | `String!`   | Id of the current product SKU                | - |
+| `seller`           | `String!`   | Id of the product seller                     | - |
+| `country`          | `String!`   | Country of the ZIP Code                      | - |
 
 ### Styles API
 
